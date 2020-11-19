@@ -4,3 +4,5 @@
   - open -e .bash_profile
     - alias ukelog='ssh -YCX yinancao@172.18.101.96'
       - killall Finder
+- display IP address: ip addr
+
