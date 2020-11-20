@@ -6,3 +6,6 @@
       - killall Finder
 - display IP address: ip addr
 - ls -lhtrp --group-directories-first --color=always
+- echo "bind '"\e[A": history-search-backward'" >> .bashrc
+  - echo "bind '"\e[B": history-search-forward'" >> .bashrc
+    - source .bashrc
