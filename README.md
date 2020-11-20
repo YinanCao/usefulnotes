@@ -5,7 +5,7 @@
     - alias ukelog='ssh -YCX yinancao@172.18.101.96'
       - killall Finder
 - display IP address: ip addr
-- ls -lhtrp --group-directories-first --color=always
+- ls -alhtrp --group-directories-first --color=always
 - echo "bind '"\e[A": history-search-backward'" >> .bashrc
   - echo "bind '"\e[B": history-search-forward'" >> .bashrc
     - source .bashrc
