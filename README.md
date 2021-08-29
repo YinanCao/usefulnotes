@@ -10,3 +10,4 @@
   - echo "bind '"\e[B": history-search-forward'" >> .bashrc
     - source .bashrc
 - ssh -X to higher nodes
+rsync -davP --ignore-existing --exclude '*.edf'
